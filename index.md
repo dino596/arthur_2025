@@ -66,11 +66,11 @@ Welcome to Arthur Liu's CSA blog.
 <button id="notebooks" onclick='toggleNotebooks()'>Open Notebooks</button>
 
 <div id="notebook">
-  <button onclick='window.location.href="{{ BaseURL }}/about/attempted_accomplished"'>Attempted vs. Accomplished</button>
+  <button onclick='window.location.href="{{ site.baseurl }}/about/attempted_accomplished"'>Attempted vs. Accomplished</button>
   <br>
-  <button>Javascript Cell</button>
+  <button onclick='window.location.href="{{ site.baseurl }}/about/javascript"'>Javascript Cell</button>
   <br>
-  <button>About</button>
+  <button onclick='window.location.href="{{ site.baseurl }}/about"'>About</button>
 </div>
 
 <script>
