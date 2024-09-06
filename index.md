@@ -63,12 +63,24 @@ Welcome to Arthur Liu's CSA blog.
   </tbody>
 </table>
 
+<button id="notebooks" onclick='toggleNotebooks()'>Open Notebooks</button>
+
+<div id="notebook">
+  <button onclick='window.location.href="{{ BaseURL }}/about/attempted_accomplished"'>Attempted vs. Accomplished</button>
+  <br>
+  <button>Javascript Cell</button>
+  <br>
+  <button>About</button>
+</div>
+
 <script>
   // classes
   const CLASSES = ['csa', 'lit', 'enm', 'stats', 'civics'];
 
   // load assignments from local storage
   document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("notebook").style.display = "none";
+
     CLASSES.forEach(cls => {
       const assignments = JSON.parse(localStorage.getItem(cls + '-assignments')) || [];
       assignments.forEach(assignment => list(cls, assignment));
@@ -109,5 +121,15 @@ Welcome to Arthur Liu's CSA blog.
   function remove(classId, value) {
     assignments = JSON.parse(localStorage.getItem(classId + '-assignments')) || [];
     localStorage.setItem(classId + '-assignments', JSON.stringify(assignments.filter(assignment => assignment !== value)));
+  }
+
+  function toggleNotebooks() {
+    const container = document.getElementById("notebook");
+
+    if(container.style.display == "none") {
+      container.style.display = "block";
+    } else {
+      container.style.display = "none";
+    }
   }
 </script>
