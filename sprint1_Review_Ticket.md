@@ -18,4 +18,4 @@ comments: true
 - [Hacks Github Pages Playground]({{site.baseurl}}/github/pages/hacks)
 - [Hacks SASS Basics]({{site.baseurl}}/sass_basics/play)
 - [Hacks Frontend]({{site.baseurl}}/frontend/basics/playground)
-- [Pair Programming]({{site.baseurl}}/2024/08/22/sprint1_hacks_IPYNB_2_.html)
+- [Pair Programming](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/?envType=daily-question&envId=2024-09-10)
