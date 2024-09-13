@@ -24,3 +24,22 @@ comments: true
 
 ### Total: 38.6 <br>
 ### Average: 3.86
+
+## Soft Skills
+
+| Skill          | Mastered (Y/N) | Rank (1-4) |  Notes |
+|----------------|----------------|------------| -------|
+| Attendance     | [ ]            | 4.0          |        |
+| Work Habits    | [ ]            | 3.5          |        |
+| Behavior       | [ ]            | 4.0          |        |
+| Timeliness     | [ ]            | 3.0          |        |
+| Tech Sense     | [ ]            | 4.0          |        |
+| Tech Talk      | [ ]            | 3.8          |        |
+| Tech Growth    | [ ]            | 3.8          |        |
+| Advocacy       | [ ]            | 3.8          |        |
+| Comm & Collab  | [ ]            | 4.0          |        |
+| Integrity      | [ ]            | 4.0          |        |
+| Organized      | [ ]            | 3.8          |        |
+
+### Total: 41.7 <br>
+### Average: 3.79
