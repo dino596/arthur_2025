@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring 1 Review Ticket
+title: Sprint 1 Review Ticket
 description:  Review Ticket for Sprint 1
 type: issue
 permalink: /sprint1
