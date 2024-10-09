@@ -35,3 +35,15 @@ comments: true
 
 ### Total: 5 <br>
 ### Average: 1
+
+## Topic Relevancy
+
+| **Assignment**          | **Weightage** | **Grade** | **Comments** |
+|-------------------------|---------------|-----------|--------------|
+| College Board Coverage  | 20            | TBD       | TBD          |
+| Java Examples           | 30            | TBD       | TBD          |
+| Popcorn Hack Usage      | 10            | TBD       | TBD          |
+| Homework                | 10            | TBD       | TBD          |
+| Grading Plan            | 10            | TBD       | TBD          |
+| Original an Creative    | 10            | TBD       | TBD          |
+| Total                   | **90**        |           |              |
