@@ -13,8 +13,8 @@ comments: true
 |----------------------------|---------------|-----------|--------------|
 | Pull Request (Integration) | 2             | 1.8       |              |
 | Relevancy Checklist (Peer) | 2             |           |              |
-| Lesson (Group)             | 1             | 1.9       |              |
-| Homework, Popcorn Hacks    | 1 x 8         | 8         |              |
+| Lesson (Group)             | 1             | 0.9       |              |
+| Homework, Popcorn Hacks    | 1 x 8         |           |              |
 | Individual Contribution    | 1             |           |              |
 | Personal Notebooks / Blogs | 1             | 1         |              |
 | Total                      | 12            |           |              |
