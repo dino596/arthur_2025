@@ -11,12 +11,12 @@ comments: true
 
 | **Assignment**             | **Points**    | **Grade** | **Evidence** |
 |----------------------------|---------------|-----------|--------------|
-| Pull Request (Integration) | 2             | 1.8       |              |
-| Relevancy Checklist (Peer) | 2             |           |              |
-| Lesson (Group)             | 1             | 0.9       |              |
-| Homework, Popcorn Hacks    | 1 x 8         | 5.44      | missing Unit 4, 2. |
-| Individual Contribution    | 1             | 0.9       | Made Section 4.3, bonus hack, and graded Period 1. |
-| Personal Notebooks / Blogs | 1             | 1         |              |
+| Pull Request (Integration) | 2             | 1.8       | synergy |
+| Relevancy Checklist (Peer) | 2             |           |  |
+| Lesson (Group)             | 1             | 0.9       | synergy |
+| Homework, Popcorn Hacks    | 1 x 8         | 6.33      | missing Unit 4 |
+| Individual Contribution    | 1             | 0.9       | [Made Section 4.3](https://dino596.github.io/arthur_2025/csa/unit4-p1/unit4-3), [bonus hack](https://dino596.github.io/arthur_2025/csa/unit4-p1/unit4-hwquiz), and [graded Period 1](https://docs.google.com/spreadsheets/d/1SLxMPSwAvMJ70X8zk0H9UwJXmyqYC2hpS6DJrjmEX2g/edit?gid=988447649#gid=988447649). |
+| Personal Notebooks / Blogs | 1             | 0.9         | [Link to CSA Timebox](https://dino596.github.io/arthur_2025/navigation/section/csa) |
 | Total                      | 12            |           |              |
 
 ### Total: 38.6 <br>
@@ -26,24 +26,12 @@ comments: true
 
 | **Skill**                  | **Points**    | **Grade** | **Evidence** |
 |----------------------------|---------------|-----------|--------------|
-| Work Habits (Analytics)    |   1           | 0.9       | 48 Commits from Analytics page. |
-| Team Planning (Issue)      |   1           | 1         |              |
-| Presentation Memories      |   1           | 1         |              |
-| Grading and Feedback       |   1           | 1         |              |
-| Beyond Perfunctory         |   1           | 1         |              | 
-| Total                      |   5           | 5         |              |
+| Work Habits (Analytics)    |  1            | 0.9       | [![8-E38-E7-B0-31-E7-4-D25-A71-B-18-DB96322817.png](https://i.postimg.cc/3RpqPKSp/8-E38-E7-B0-31-E7-4-D25-A71-B-18-DB96322817.png)](https://postimg.cc/WFNSZPPb) |
+| Team Planning (Issue)      |  1            | 0.9       | We used a [Google Doc](https://docs.google.com/document/d/1HmLY5Y8AhCI-ywkJN--SPko2PLmuIy6ZeAN53ms-5Vw/edit?usp=sharing) for planning. |
+| Presentation Memories      |  1            | 0.9         | [Summaries of my memories throughout the team teaches](https://dino596.github.io/arthur_2025/teamteach) |
+| Grading and Feedback       |  1            | 1         |              |
+| Beyond Perfunctory         |  1            | 1         |              | 
+| Total                      |  5            | 5         |              |
 
 ### Total: 5 <br>
 ### Average: 1
-
-## Topic Relevancy for Unit 3
-
-| **Assignment**          | **Weightage** | **Grade** | **Comments** |
-|-------------------------|---------------|-----------|--------------|
-| College Board Coverage  | 20            | 18        | Covered all college board material effectively. |
-| Java Examples           | 30            | 25        | Included some good examples, some were in the wrong language. |
-| Popcorn Hack Usage      | 10            | 8         |              |
-| Homework                | 10            | 9         | Good homework hack combining all content. |
-| Grading Plan            | 10            | 9         | Neat and explicit grading criteria. |
-| Original an Creative    | 10            | 9         |              |
-| Total                   | **90**        | **78**    |              |
