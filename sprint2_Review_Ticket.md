@@ -39,12 +39,12 @@ comments: true
 ## COMMENT HERE :
 https://github.com/dino596/arthur_2025/issues/3
 
-Unit 2: 0.89
-Unit 3: 0.93
-Unit 4: 0.9 (made this)
-Unit 5: 0.9
-Unit 6: 0.95
-Unit 7: 0.91
-Unit 8: 0.9
-Unit 9: 0.85
+Unit 2: 0.89<br>
+Unit 3: 0.93<br>
+Unit 4: 0.9 (made this)<br>
+Unit 5: 0.9<br>
+Unit 6: 0.95<br>
+Unit 7: 0.91<br>
+Unit 8: 0.9<br>
+Unit 9: 0.85<br>
 Total: 7.23/8.00 = 0.90375
