@@ -32,3 +32,6 @@ I accidentally misread the question as asking for newArray[0][1], not newArray[0
 Q34. Which of the following replacements for /* missing code */ will correctly implement the Circle constructor?
 
 x and y can not be updated outside of the class, since it is a private instance variable.
+
+Overall, I think I did well with this practice MCQ, and it showed me what I know well and need to work on.
+I am struggling with inheritance and arrays, specifically ArrayLists.
