@@ -31,3 +31,8 @@ JWT Token<br>
 [![image.png](https://i.postimg.cc/FKdqDWGg/image.png)](https://postimg.cc/CZ0mK43z)<br>
 JavaURI with UID (instead of email)<br>
 [![image.png](https://i.postimg.cc/0jfHbL2x/image.png)](https://postimg.cc/YLvxPDWy)
+<br><br>
+I was also able to log into the student toolkit login<br>
+[![700-F2-C20-268-B-4-E20-BAB8-69-A66-EDE73-CF.png](https://i.postimg.cc/15ZQ4qs5/700-F2-C20-268-B-4-E20-BAB8-69-A66-EDE73-CF.png)](https://postimg.cc/qgQY5gN9)<br>
+Using the student toolkit, I was able to submit my HW for 2D Arrays pt. 2<br>
+[![E7-EA59-BB-9724-453-F-903-D-69478-F3-B92-A1.png](https://i.postimg.cc/DzSDxvnM/E7-EA59-BB-9724-453-F-903-D-69478-F3-B92-A1.png)](https://postimg.cc/GB1q21BF)
