@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 1/29 Review Ticket
-description:  Review Ticket for 1/29
+title: Sprint 4 Review Ticket
+description:  Review Ticket for Sprint 4
 type: issue
-permalink: /1/29
+permalink: /sprint4
 comments: true
 ---
 
