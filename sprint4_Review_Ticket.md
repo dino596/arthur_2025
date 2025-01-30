@@ -38,3 +38,122 @@ I was also able to log into the student toolkit login<br>
 [![700-F2-C20-268-B-4-E20-BAB8-69-A66-EDE73-CF.png](https://i.postimg.cc/15ZQ4qs5/700-F2-C20-268-B-4-E20-BAB8-69-A66-EDE73-CF.png)](https://postimg.cc/qgQY5gN9)<br>
 Using the student toolkit, I was able to submit my HW for 2D Arrays pt. 2<br>
 [![E7-EA59-BB-9724-453-F-903-D-69478-F3-B92-A1.png](https://i.postimg.cc/DzSDxvnM/E7-EA59-BB-9724-453-F-903-D-69478-F3-B92-A1.png)](https://postimg.cc/GB1q21BF)
+<br><br>
+1/30/2025<br>
+[Draw.io diagram](https://github.com/CSA-Coders-2025/CSA_Combined_Backend_Fork/blob/casinobranch/src/main/java/com/nighthawk/spring_portfolio/mvc/casino.drawio), made with Saaras Kodali<br>
+[![B88-C4-EF2-C1-F9-4192-8-D3-C-2-D554-D18-D876.png](https://i.postimg.cc/8zQfyVQL/B88-C4-EF2-C1-F9-4192-8-D3-C-2-D554-D18-D876.png)](https://postimg.cc/ppCdT4dd)<br>
+Your diagram represents the **Casino branch of Gamify**, focusing on the **Mines** and **Poker** games. It illustrates class relationships and API endpoints involved in handling game logic and communication with clients.
+
+---
+
+### **1. Overview of Components**
+The diagram is structured into three main sections:
+- **Mines Game (Top Section)**
+- **Poker Game (Middle and Bottom Sections)**
+- **Casino System (Left Section)**
+
+Each section contains Java classes and API controllers that interact with each other.
+
+---
+
+### **2. Breakdown of Components**
+
+#### **Casino System (General)**
+- **"Casino branch of Gamify"**  
+  - Represents the overarching system managing casino games.
+  - Connects to the **MinesApiController** and **PokerApiController**.
+
+#### **Mines Game**
+- **MinesApiController.java**
+  - API Controller handling HTTP requests.
+  - Endpoints:
+    - `/api/casino/mines`
+    - `/api/casino/mines/{xCoord}/{yCoord}` → Check position for a mine.
+    - `/api/casino/mines/stakes/{stakes}` → Set stake amount.
+    - `/api/casino/mines/balance/{uid}` → Get user balance.
+    - `/api/casino/mines/winnings` → Get winnings.
+
+- **MinesBoard.java**
+  - Represents the **Mines game board**.
+  - Attributes:
+    - `int[][] board` → Stores mine positions.
+    - `int stakes`
+    - `int xCoord, yCoord`
+  - Methods:
+    - `placeMines()` → Places mines on the board.
+    - `checkMines(int xCoord, int yCoord)` → Checks if a position has a mine.
+    - `winnings()` → Calculates winnings.
+  - The **MinesApiController** communicates with **MinesBoard.java** to process game logic.
+
+---
+
+#### **Poker Game**
+- **PokerApiController.java**
+  - API Controller handling poker-related HTTP requests.
+  - Endpoints:
+    - `/api/casino/poker`
+    - `/api/casino/poker/play`
+    - `/api/casino/poker/reset`
+
+- **PokerBoard.java**
+  - Represents the **Poker game board**.
+  - Attributes:
+    - `List<PokerCard> deck`
+    - `List<PokerCard> playerHand`
+    - `List<PokerCard> dealerHand`
+  - Methods:
+    - `initializeDeck()` → Sets up a new deck.
+    - `shuffleDeck()` → Shuffles the deck.
+
+- **PokerCard.java**
+  - Represents a **single poker card**.
+  - Attributes:
+    - `String rank`
+    - `String suit`
+  - Methods:
+    - `getRank()`, `getSuit()`
+    - `compareTo(PokerCard other)` → Compares card values.
+    - `getCardRankValue()` → Returns the card's rank as a numerical value.
+
+- **PokerBetRequest.java**
+  - Handles **player bets**.
+  - Attributes:
+    - `int bet`
+  - Methods:
+    - `getBet()`
+    - `setBet()`
+  - Used by **PokerApiController** to process betting requests.
+
+- **PokerGameResult.java**
+  - Handles **game results**.
+  - Methods:
+    - `isPlayerWin()`
+    - `isDealerWin()`
+    - `getWinnings()`
+    - `evaluateHand(List<PokerCard> hand)`
+
+- **Relationships:**
+  - **PokerApiController** interacts with **PokerBoard** and **PokerGameResult**.
+  - **PokerBoard** relies on **PokerCard** for card-related operations.
+
+---
+
+### **3. Relationship Arrows**
+- **API controllers (MinesApiController, PokerApiController)**
+  - Communicate with their respective game logic classes (**MinesBoard**, **PokerBoard**, etc.).
+- **PokerBoard → PokerCard**
+  - PokerBoard uses PokerCard to manage the deck.
+- **PokerApiController → PokerGameResult**
+  - The API controller queries **PokerGameResult** to determine winners.
+
+---
+
+### **4. Summary**
+- **Mines and Poker games** have separate logic and API controllers.
+- **MinesApiController** processes mines-related requests and interacts with **MinesBoard**.
+- **PokerApiController** handles poker-related operations and interacts with **PokerBoard**, **PokerBetRequest**, and **PokerGameResult**.
+- The **PokerBoard** is responsible for managing the game deck and hands.
+- **PokerCard** provides individual card properties and comparison methods.
+- **PokerGameResult** evaluates poker hands and determines winners.
+
+
