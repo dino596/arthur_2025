@@ -30,7 +30,7 @@ A quick CSS commit: [github](https://github.com/CSA-Coders-2025/CSA_Combined_Fro
 <br>
 Most importantly, I fixed my connection with the person database.<br>
 JWT Token<br>
-[![image.png](https://i.postimg.cc/FKdqDWGg/image.png)](https://postimg.cc/CZ0mK43z)<br>
+[![48-B2-A897-73-ED-4-A9-B-B7-AB-15-A37756-CDAC.png](https://i.postimg.cc/gktCNDMk/48-B2-A897-73-ED-4-A9-B-B7-AB-15-A37756-CDAC.png)](https://postimg.cc/7f7tLg8p)<br>
 JavaURI with UID (instead of email)<br>
 [![image.png](https://i.postimg.cc/0jfHbL2x/image.png)](https://postimg.cc/YLvxPDWy)
 <br><br>
