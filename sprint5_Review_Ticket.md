@@ -11,6 +11,8 @@ comments: true
 [![9-A7-DB033-A3-E3-47-F2-994-F-711-F7-C9471-AF.png](https://i.postimg.cc/28tvh7g3/9-A7-DB033-A3-E3-47-F2-994-F-711-F7-C9471-AF.png)](https://postimg.cc/2V4Vfhkf)<br>
 [Sprint 5 Burndown List and 5 Point Summary](https://github.com/dino596/arthur_2025/issues/6)<br><br>
 
+[![B4-B6-E171-98-B5-4-CE4-A51-F-493719-B1-AEA6.png](https://i.postimg.cc/MprkqdqC/B4-B6-E171-98-B5-4-CE4-A51-F-493719-B1-AEA6.png)](https://postimg.cc/K1Lp57Kf)<br><br>
+
 Key feature visualization (with Saraas Kodali)<br>
 [![28-B5065-D-EFF4-417-B-A454-B87-BC0082-CE9.png](https://i.postimg.cc/wMkrwc1s/28-B5065-D-EFF4-417-B-A454-B87-BC0082-CE9.png)](https://postimg.cc/9wr1M9tW)<br><br>
 
