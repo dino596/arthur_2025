@@ -8,6 +8,12 @@ import sys
 import subprocess
 from hashlib import sha256
 
+if __name__ == "__main__":
+    from progress_bar import ProgressBar
+else:
+    from scripts.progress_bar import ProgressBar
+
+
 notebook_directory = "_notebooks"
 destination_directory = "_posts"
 mermaid_output_directory = "assets/mermaid"
@@ -70,6 +76,22 @@ def convert_single_notebook(notebook_file):
 
 def convert_notebooks():
     notebook_files = glob.glob(f"{notebook_directory}/**/*.ipynb", recursive=True)
+
+    # create progress bar
+    convertBar = ProgressBar(
+        userInfo="Notebook conversion progress:", total=(len(notebook_files))
+    )
+
+    for notebook_file in notebook_files:
+        try:
+            convert_single_notebook(notebook_file)
+            convertBar.continue_progress()
+        except ConversionException as e:
+            print(f"Conversion error for {notebook_file}: {str(e)}")
+            error_cleanup(notebook_file)
+            sys.exit(1)
+
+    convertBar.end_progress()
 
 
 # MERMAID STUFF =========
