@@ -11,7 +11,7 @@ comments: true
 - [Abstract Fibo](https://dino596.github.io/arthur_2025/frq/abstract_fibo)
 - [Calculator Enactment (creators)](https://nighthawkcoders.github.io/portfolio_2025/2025/03/17/calculatorlesson_IPYNB_2_.html)
 - [Insertion and Selection](https://dino596.github.io/arthur_2025/frq/sorting1)
-- Collections: TBA
+- [Collections](https://dino596.github.io/arthur_2025/frq/collections)
 <br>
 
 ## College Board FRQs and MCQs
@@ -20,8 +20,8 @@ comments: true
 - [2015 MCQ](https://dino596.github.io/arthur_2025/mcq)
 - [Custom Quiz FRQ](https://dino596.github.io/arthur_2025/custom/frq)
 - [Custom Quiz MCQ](https://dino596.github.io/arthur_2025/custom/mcq)
-- 2020 FRQ: TBA
-- 2020 MCQ: TBA
+- [2020 FRQ](https://dino596.github.io/arthur_2025/2020/frq)
+- [2020 MCQ](https://dino596.github.io/arthur_2025/2020/mcq)
 <br>
 
 ## Extra: TBA
