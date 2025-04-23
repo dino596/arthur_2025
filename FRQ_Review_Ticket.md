@@ -24,4 +24,8 @@ comments: true
 - [2020 MCQ](https://dino596.github.io/arthur_2025/2020/mcq)
 <br>
 
-## Extra: TBA
+## Study Plan:
+- [2021 FRQ](https://apcentral.collegeboard.org/media/pdf/ap21-frq-computer-science-a.pdf)
+- [2022 FRQ](https://apcentral.collegeboard.org/media/pdf/ap22-frq-computer-science-a.pdf)
+- [2023 FRQ](https://apcentral.collegeboard.org/media/pdf/ap23-frq-comp-sci-a.pdf)
+- [2024-FRQ](https://apcentral.collegeboard.org/media/pdf/ap24-frq-comp-sci-a.pdf)
