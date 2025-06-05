@@ -8,7 +8,7 @@ permalink: /final
 
 # CSA Final Review
 [Linkedin](https://www.linkedin.com/in/arthur-liu-0344a1369/)<br>
-[Resume](file:///C:/Users/arthu/Downloads/ArthurLiuResume.pdf)<br>
+file:///C:/Users/arthu/Downloads/ArthurLiuResume.pdf
 
 ## Tri 1
 [Sprint 1 Review Ticket](https://dino596.github.io/arthur_2025/sprint1)
