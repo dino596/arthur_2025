@@ -7,7 +7,6 @@ permalink: /final
 ---
 
 # CSA Final Review
-<br><br>
 [Linkedin](https://www.linkedin.com/in/arthur-liu-0344a1369/)<br>
 [Resume](file:///C:/Users/arthu/Downloads/ArthurLiuResume.pdf)<br>
 
